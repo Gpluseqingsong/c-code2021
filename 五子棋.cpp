@@ -142,10 +142,13 @@ void START(char(*a)[5]) {
 		switch (cho)
 		{
 		case 1:break;
-		case 0:return;
+		case 0:
+		printf("\n-----------游戏结束-----------\n\n");
+				return;
 		default:
 			break;
 		}
+		printf("\n-----------游戏继续-----------\n\n");
 	}
 }
 void start2(char(*a)[5])
